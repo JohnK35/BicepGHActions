@@ -1,7 +1,7 @@
 @minLength(3) 
 @maxLength(11) 
 param storagePrefix string
-param storageNamePrefix string = 'Nameless'
+param storagePrefix string = 'Nameless'
 param location string = resourceGroup().location
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
