@@ -23,5 +23,5 @@ jobs:
                   subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
                   resourceGroupName: ${{ secrets.AZURE_RG }}
                   template: ${{ env.TEMPLATE_FILE }}
-                  parameters: storagePrefix=stg
+                  parameters: storagePrefix='1199sixonenine'
                   failOnStdErr: false
