@@ -1,6 +1,3 @@
-@minLength(3) 
-@maxLength(11) 
-param storagePrefix string
 param storagePrefix string = 'Nameless'
 param location string = resourceGroup().location
 
