@@ -1,4 +1,4 @@
-param storagePrefix string = uniqueString(resourceGroup().id)
+param storagePrefix string = '1199sixonenine'
 param location string = resourceGroup().location
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
